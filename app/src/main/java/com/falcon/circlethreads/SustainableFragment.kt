@@ -6,30 +6,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.falcon.circlethreads.databinding.FragmentBuySellBinding
 import com.falcon.circlethreads.databinding.FragmentHomeBinding
+import com.falcon.circlethreads.databinding.FragmentSustainableBinding
 
 
-class BuySellFragment : Fragment() {
-    private var _binding: FragmentBuySellBinding? = null
+class SustainableFragment : Fragment() {
+    private var _binding: FragmentSustainableBinding? = null
     private val binding get() = _binding!!
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentBuySellBinding.inflate(inflater, container, false)
-        binding.b1.setOnClickListener {
-            findNavController().navigate(R.id.action_buySellFragment_to_FirstFragment)
-        }
-        binding.b2.setOnClickListener {
-            findNavController().navigate(R.id.action_buySellFragment_to_SecondFragment)
-        }
-
-
-
-
-
-
+        _binding = FragmentSustainableBinding.inflate(inflater, container, false)
         return binding.root
     }
 

@@ -22,7 +22,7 @@ class FirstFragment : Fragment() {
     ): View? {
 
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
-        findNavController().navigate(R.id.action_FirstFragment_to_buySellFragment)
+//        findNavController().navigate(R.id.action_FirstFragment_to_buySellFragment)
         return binding.root
 
     }
