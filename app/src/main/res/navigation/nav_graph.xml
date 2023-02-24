@@ -34,7 +34,7 @@
     <fragment
         android:id="@+id/buySellFragment"
         android:name="com.falcon.circlethreads.BuySellFragment"
-        android:label="Buy / Sell"
+        android:label="Upcycle"
         tools:layout="@layout/fragment_buy_sell" >
         <action
             android:id="@+id/action_buySellFragment_to_FirstFragment"
@@ -67,6 +67,6 @@
     <fragment
         android:id="@+id/sustainableFragment"
         android:name="com.falcon.circlethreads.SustainableFragment"
-        android:label="fragment_sustainable"
+        android:label="Sustainable Marketplace"
         tools:layout="@layout/fragment_sustainable" />
 </navigation>

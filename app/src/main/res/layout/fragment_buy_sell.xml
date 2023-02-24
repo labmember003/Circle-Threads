@@ -10,7 +10,7 @@
         android:id="@+id/image_pending_animation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:lottie_rawRes="@raw/shopping"
+        app:lottie_rawRes="@raw/recycle"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:layout_constraintBottom_toBottomOf="parent"
