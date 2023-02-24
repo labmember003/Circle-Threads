@@ -22,11 +22,20 @@ class HomeFragment : Fragment() {
         binding.year1.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_buySellFragment)
         }
+        binding.year2.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_sustainableFragment)
+        }
         binding.year3.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_FirstFragment)
         }
-        binding.year2.setOnClickListener {
-            findNavController().navigate(R.id.action_homeFragment_to_sustainableFragment)
+        binding.year4.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_rentalFragment)
+        }
+        binding.year5.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_connectFragment)
+        }
+        binding.year6.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_sustainabilityTrackingFragment)
         }
         //        findNavController().navigate(R.id.action_FirstFragment_to_buySellFragment)
         // Inflate the layout for this fragment

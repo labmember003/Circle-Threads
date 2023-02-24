@@ -63,10 +63,34 @@
         <action
             android:id="@+id/action_homeFragment_to_sustainableFragment"
             app:destination="@id/sustainableFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_connectFragment"
+            app:destination="@id/connectFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_rentalFragment"
+            app:destination="@id/rentalFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sustainabilityTrackingFragment"
+            app:destination="@id/sustainabilityTrackingFragment" />
     </fragment>
     <fragment
         android:id="@+id/sustainableFragment"
         android:name="com.falcon.circlethreads.SustainableFragment"
         android:label="Sustainable Marketplace"
         tools:layout="@layout/fragment_sustainable" />
+    <fragment
+        android:id="@+id/connectFragment"
+        android:name="com.falcon.circlethreads.ConnectFragment"
+        android:label="Connect"
+        tools:layout="@layout/fragment_connect" />
+    <fragment
+        android:id="@+id/rentalFragment"
+        android:name="com.falcon.circlethreads.RentalFragment"
+        android:label="Rental"
+        tools:layout="@layout/fragment_rental" />
+    <fragment
+        android:id="@+id/sustainabilityTrackingFragment"
+        android:name="com.falcon.circlethreads.SustainabilityTrackingFragment"
+        android:label="Sustainability Tracking"
+        tools:layout="@layout/fragment_sustainability_tracking" />
 </navigation>
